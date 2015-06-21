@@ -2,17 +2,22 @@
 This repository stores the files of my Coursera 'Getting and Cleaning Data' project.
 
 It contains:
+  - The script `getAndExtractData.R`, which downloads and extracts the original data.
   - The script `run_analysis.R`, which creates the requested tidy data set from the original data.
   - The file `CodeBook.md`, which describes the variables and transformations performed to clean up the data.
-  - The current file `README.md`, which explains how all this works.  
+  - The current file `README.md`, which explains how all this works.
  
-###Getting the data files
 
-Before running the script, the original zip file must be downloaded manually in the working directory from the address: `https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip`.
+###Getting the data
 
-Then, the original zip file must be dezipped in the working directory (probably using the default values), so that the data files are stored in the directory `./getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset`.
+Before running the script `run_analysis.R`, the original zip file must be downloaded in the working directory from the address: `https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip`.
 
-###Running the script
+Then, this file must be dezipped in the working directory, so that the data files are stored in the directory `./getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset`.
+
+This can be done manually or using the `getAndExtractData.R` script. This script uses the package `downloader`, which much be installed beforehand.
+
+
+###Cleaning the data
 
 From this moment, you can source and run the script `run_analysis.R` in your R environment from the working directory.
 
