@@ -115,7 +115,7 @@ Activities are stored in the 68th column. We change their numeric values (1:6) b
 
 ####Step 4
 
-The fourth step labels the data set with the descriptive variable names that are provided by the `features.txt`.
+The fourth step labels the data set with the descriptive variable names that are provided by the `features.txt` file.
 
 ####Step 5
 
