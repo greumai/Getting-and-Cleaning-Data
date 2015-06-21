@@ -121,6 +121,6 @@ The fourth step labels the data set with the descriptive variable names that are
 
 The fifth step creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-In order to do that, we split the data set for each subject (column 1) and activity (column 68) and compute the averages (i.e. means) of the numeric variables of columns 2:67 for these 180 elements. Each element provides 1 row of the final tidy data set.
+In order to do that, we split the data set for each subject (column 1) and activity (column 68) and compute the averages (i.e. means) of the numeric variables (columns 2:67) for these 180 elements. Each element provides 1 row of the final tidy data set.
 
 
