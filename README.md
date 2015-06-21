@@ -5,7 +5,7 @@ It contains:
   - The script `getAndExtractData.R`, which downloads and extracts the original data.
   - The script `run_analysis.R`, which creates the requested tidy data set from the original data.
   - The file `CodeBook.md`, which describes the variables and transformations performed to clean up the data.
-  - The current file `README.md`, which explains how all this works.
+  - The current file `README.md`, which explains how all this works together.
  
 
 ###Getting the data
