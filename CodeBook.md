@@ -90,7 +90,7 @@ The 180 rows are the combinations of the 30 subjects (numbered from 1 to 30 in t
 
 ##The transformations  
 
-###STEP 1 
+####Step 1 
 
 The first step merges the training and the test sets, in order to create one data set.
 
@@ -99,7 +99,7 @@ The script merges the total 10299 observations (2947 in test sets and 7352 in tr
   - `X_test.txt` and `X_train.txt` (561 variables, the features, rank 2:562)
   - `y_test.txt` and `y_train.txt` (1 variable, the labels, rank 563)
   
-#### STEP 2
+####Step 2
 
 The second step extracts the measurements on the means and standard deviations.
 
@@ -107,17 +107,17 @@ The ranks of the means and standard deviations of the 17 features are given in t
 
 The subjects and the labels have also to be extracted.
 
-#### STEP 3        
+####Step 3        
 
 The third step uses descriptive activity names to name the activities in the data set. 
 
 Activities are stored in the 68th column. We change their numeric values (1:6) by their corresponding string values according to the `activity_labels.txt` file.
 
-#### STEP 4
+####Step 4
 
 The fourth step labels the data set with the descriptive variable names that are provided by the `features.txt`.
 
-#### STEP 5
+####Step 5
 
 The fifth step creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
