@@ -6,7 +6,7 @@ It contains:
   - The file `CodeBook.md`, which describes the variables and transformations performed to clean up the data.
   - The current file `README.md`, which explains how all this works.  
  
-###Data files
+###Getting the data files
 
 Before running the script, the original zip file must be downloaded manually in the working directory from the address: `https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip`.
 
