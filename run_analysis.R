@@ -2,13 +2,15 @@ run_analysis<-function() {
         
         ## STEP 0
         
-        ## The original file must have been downloaded manually in the working directory from the address
+        ## The following manipulations may be done manually or using the script 'getAndExtractData.R'.
+        
+        ## The original file must be downloaded in the working directory from the provided address
         ## "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip".
         
-        ## The original file must also have been dezipped (probably using the default values), so that  
-        ## the data are stored in the directory "./getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset".
- 
-        ## The script uses data tables.
+        ## The original file must also be dezipped, so that the data are stored in the directory 
+        ## "getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset". 
+
+        ## The current script uses data tables.
         
         library(data.table)
         
