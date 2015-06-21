@@ -6,13 +6,13 @@ It contains:
   - The file 'CodeBook.md', which describes the variables and transformations performed to clean up the data.
   - The current file 'README.md', which explains how all this works.  
  
-Data files
+###Data files
 
 Before running the script, the original zip file must be downloaded manually in the working directory from the address: 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'.
 
 Then, the original zip file must be dezipped in the working directory (probably using the default values), so that the data files are stored in the directory './getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset'.
 
-Running the script
+###Running the script
 
 From this moment, you can source and run the script 'run_analysis.R' in your R environment from the working directory.
 
