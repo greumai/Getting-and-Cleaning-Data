@@ -95,9 +95,9 @@ The 180 rows are the combinations of the 30 subjects (numbered from 1 to 30 in t
 The first step merges the training and the test sets, in order to create one data set.
 
 The script merges the total 10299 observations (2947 in test sets and 7352 in training sets) on 563 variables:
-  - `subject_test.txt` and `subject_train.txt` (1 variable, the subjects, rank 1)
-  - `X_test.txt` and `X_train.txt` (561 variables, the features, rank 2:562)
-  - `y_test.txt` and `y_train.txt` (1 variable, the labels, rank 563)
+  - `subject_test.txt` and `subject_train.txt` (1 variable, the subjects, column 1)
+  - `X_test.txt` and `X_train.txt` (561 variables, the features, columns 2:562)
+  - `y_test.txt` and `y_train.txt` (1 variable, the labels, column 563)
   
 ####Step 2
 
