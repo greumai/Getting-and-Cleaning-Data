@@ -101,7 +101,7 @@ The script merges the total 10299 observations (2947 in test sets and 7352 in tr
   
 ####Step 2
 
-The second step extracts the measurements on the means and standard deviations.
+The second step extracts the measurements of the means and standard deviations.
 
 The ranks of the means and standard deviations of the 17 features are given in the `features.txt` file (see comments in the script file to get the numeric values). In our data set, the features have been concatenated after the subjects, the ranks to extract are 1 greater.
 
